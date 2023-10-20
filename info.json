@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:3000/iiif/2/demo",
+  "protocol": "http://iiif.io/api/image",
+  "profile": ["http://iiif.io/api/image/2/level0.json"],
+  "width": 5233,
+  "height": 7200,
+  "sizes": [
+    {
+      "width": 82,
+      "height": 113
+    },
+    {
+      "width": 164,
+      "height": 225
+    },
+    {
+      "width": 250,
+      "height": 342
+    },
+    {
+      "width": 327,
+      "height": 450
+    },
+    {
+      "width": 500,
+      "height": 685
+    },
+    {
+      "width": 654,
+      "height": 900
+    },
+    {
+      "width": 1308,
+      "height": 1800
+    },
+    {
+      "width": 1900,
+      "height": 2603
+    },
+    {
+      "width": 2617,
+      "height": 3600
+    },
+    {
+      "width": 5233,
+      "height": 7200
+    }
+  ]
+}
