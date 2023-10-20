@@ -49,4 +49,4 @@ from some publically available image server.
      
 5. Debug OSD application
 
-Find out why OSD won't request level 9 (witdth 2617) and 10 (width 5233).
+   **Find out why OSD won't request level 9 (witdth 2617) and 10 (width 5233).**
