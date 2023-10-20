@@ -15,9 +15,13 @@ from some publically available image server.
 
 1. Check out this repository or download the zip file and unzip it
 
-2. Start the demo (you need Python3 installed)
+2. Start the demo
 
        python3 iiif_server.py
+
+   Alternatively, if you don't have python installed, start a docker image:
+
+       docker run --rm -t -p 3000:3000 cominvent/osd-repro
 
 3. Open a browser to http://localhost:3000/
 

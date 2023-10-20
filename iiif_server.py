@@ -50,6 +50,6 @@ class IIIFRequestHandler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     PORT = 3000
     # Change the directory to the location of your files (index.html, info.json)
-    server = http.server.HTTPServer(('localhost', PORT), IIIFRequestHandler)
+    server = http.server.HTTPServer(('0.0.0.0', PORT), IIIFRequestHandler)
     print(f"IIIF server is running on port {PORT}. Visit http://localhost:3000/")
     server.serve_forever()
